@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projeto - Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Pacote de Viagens</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="titulo-grande">
+    <div class="container">
+      <h1>Embarque na Melhor Viagem da sua Vida!</h1>
+      <p>Preencha o formulário para receber os melhores pacotes de viagem</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="form-container">
+      <h2 class="text-center mb-4">Preencha o Formulário</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome:</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+        </div>
+        <div class="mb-3">
+          <label for="telefone" class="form-label">Telefone de Contato:</label>
+          <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone de contato" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <section class="ofertas">
+    <div class="container">
+      <h2>Nossas Melhores Ofertas</h2>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://www.welcometrips.com.br/wp-content/uploads/2023/06/Capa-3.png" class="card-img-top" alt="Oferta 1">
+            <div class="card-body">
+              <h5 class="card-titulo">Cairo, Egito</h5>
+              <p class="card-text">Conheça o Egito e suas Maravilhas do Mundo Antigo, incluindo as Pirâmides e a Esfinge.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://www.maladeaventuras.com/wp-content/uploads/2023/09/o-que-fazer-em-mykonos-capa-2.jpg" class="card-img-top" alt="Oferta 2">
+            <div class="card-body">
+              <h5 class="card-titulo">Mykonos, Grécia</h5>
+              <p class="card-text">Aproveite as Belas Praias Gregas com o Amor da sua Vida.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://www.voupranos.com.br/wp-content/uploads/2022/10/turma-mickey-mouse-magic-kingdom.webp" class="card-img-top" alt="Oferta 3">
+            <div class="card-body">
+              <h5 class="card-titulo">Orlando, Estados Unidos</h5>
+              <p class="card-text">Descubra a Magia dos Parques da Disney World com sua Família.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Pacote de Viagens. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
